@@ -1,13 +1,10 @@
 import React from 'react';
-import Busca from './components/busca';
-import Header from './components/header';
-
+import Routes from './routes';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Busca />
+      <Routes />
     </div>
   );
 }
